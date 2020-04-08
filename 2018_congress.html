@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/script.js"></script>
   <title>2018 Congress</title>
 </head>
 <body>
@@ -13,7 +14,33 @@
     <h3 class="boldText">PHILOSOPHY IN AN AGE OF CRISIS: CHALLENGES AND PROSPECTS</h3>
   </div>
   <div>
-    
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img/2210570b-e448-478c-a27e-06c1da420dc2_570.jpeg" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/3VTJEDQHCJFTBLQ263GKE5PZ4Q.jpg" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/aula3.png" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/dan-gold-4YAhiaZkUfs-unsplash.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="content">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
   </div>
   <div class="container">
 <p>Lima, Peru</p>
