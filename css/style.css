@@ -4,6 +4,12 @@ body {
 
 h2 {
   font-size: 1.5em; /* 24 px */
+  margin: 0.83em 0 0.83em;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0 1em;
 }
 
 /* Container for each section on page */
