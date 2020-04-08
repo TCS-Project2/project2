@@ -38,10 +38,6 @@ li {
  padding: 20px;
 }
 
-.col {
-
-}
-
 .textCenter {
   text-align: center;
 }
@@ -50,6 +46,24 @@ li {
   font-weight: bold;
 }
 
+/* Create two equal columns that floats next to each other */
+.col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*********************/
+/*** Slideshow CSS ***/
+/*********************/
 * {box-sizing:border-box}
 
 /* Slideshow container */
