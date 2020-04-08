@@ -12,6 +12,14 @@ h3 {
   margin: 1em 0 1em;
 }
 
+p {
+  margin: 1em 0 1em;
+}
+
+img {
+  border: 1px solid rgb(0, 0, 0);
+}
+
 /* Container for each section on page */
 .container {
  margin: 40px;
