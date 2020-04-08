@@ -20,6 +20,17 @@ img {
   border: 1px solid rgb(0, 0, 0);
 }
 
+ul {
+  display: block;
+  list-style-type: disc;
+  margin: 1em 0 1em;
+  padding-left: 40px;
+}
+
+li {
+  display: list-item;
+}
+
 /* Container for each section on page */
 .container {
  margin: 40px;
