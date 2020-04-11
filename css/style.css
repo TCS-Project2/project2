@@ -177,9 +177,10 @@ li {
 }
 
 /* Sebastian Augusthy's part */
-#bmargin{
-	margin:0 20px;
+#bmargin {
+  margin: 0 20px;
 }
+
 #sign-up {
   width: 70%;
   height: 320px;
@@ -188,8 +189,12 @@ li {
   padding: 30px;
   text-align: left;
   margin-top: 10px;
-  float:left;
+  float: left;
   margin-left: 40px;
+}
+
+#sign-up input[type=submit] {
+  background-color: #387dff;
 }
 
 .size {
@@ -204,10 +209,19 @@ input {
   background-color: #1b23cc;
   color: yellow;
 }
-.resize{
-	float:left;
-	width:100%;
-	font-size: 12px;
-	text-align: justify;
-	font-family: 'Lato', sans-serif;
+
+.resize {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+}
+
+.lsize {
+  width: 90px;
+}
+
+#login input[type=submit] {
+  background-color: #387dff;
 }
