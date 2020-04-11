@@ -206,7 +206,7 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
-  background-color: #1b23cc;
+  background-color: #0047cc;
   color: yellow;
 }
 
@@ -223,5 +223,5 @@ input {
 }
 
 #login input[type=submit] {
-  background-color: #387dff;
+  background-color: #0256f2;
 }
