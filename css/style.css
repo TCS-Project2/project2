@@ -180,12 +180,13 @@ li {
 
 #sign-up {
   width: 70%;
-  height: 500px;
+  height: 320px;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
   background: #f5f7fe;
   padding: 30px;
   text-align: left;
   margin-top: 10px;
+  float:right;
 }
 
 .size {
@@ -199,4 +200,10 @@ input {
   margin-left: 10px;
   background-color: #1b23cc;
   color: yellow;
+}
+.resize{
+	float:left;
+	width:50%;
+	font-size: 10px;
+	text-align: justify;
 }
