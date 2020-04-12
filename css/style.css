@@ -227,29 +227,16 @@ input {
   background-color: #0256f2;
 }
 
-nav {
-  display: block;
-}
-
-ul img {
-  width: 22px;
-  height: 22px;
-}
-
-nav ul li {
-  list-style-type: none;
-}
 
 @media (min-width:768px) {
   ul li {
-    display: none;
     list-style-type: none;
   }
 
   p {
     display: block;
     width: 40%;
-    
+
   }
 
   #sign-up {
