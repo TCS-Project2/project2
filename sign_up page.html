@@ -3,24 +3,19 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>ITMD-361 Project 2</title>
+  <title>ITMD-362 Project 2</title>
   <link rel="stylesheet" href="css/reset_fixed.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body id="bmargin">
-  <nav>
-    <h1>The International Society for Universal Dialogue (ISUD)</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="history.html">History</li>
-      <li><a href="2018_congress.html">2018 Congress</li>
-      <li><a href="#">Sign_up page</li>
-    </ul>
-  </nav>
+  <h1>The International Society for Universal Dialogue (ISUD)</h1>
+  <ul class="jumpers">
+    <li><a id="tools-jump" href="#tools"><img src="img/3-line.png" alt="Navigation"></a></li>
+  </ul>
   <div id="login">
-    <form>
+    <form name="login" method="get" action="#null" autocomplete="on">
       <input class="lsize" type="text" name="username" value="Username*">
       <input class="lsize" type="text" name="psw" value="Password*">
       <input type="submit" value="login">
@@ -44,4 +39,12 @@
       <input type="submit" value="sign-up">
     </form>
   </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="history.html">History</li>
+      <li><a href="2018_congress.html">2018 Congress</li>
+      <li><a href="#">Sign_up page</li>
+    </ul>
+  </nav>
 </body>
