@@ -240,25 +240,13 @@ nav ul li {
   list-style-type: none;
 }
 
-.hasjs .resize {
-  width: 100%;
-}
-
-.has-toolbar .resize {
-  margin-left: 50%;
-}
-
-.hasjs #tools {
-  transition: none;
-  /* No transition on load or tool close */
-  opacity: 0;
-  position: absolute;
-  top: 120px;
-  /*left: -50%;*/
-  left: 5%;
-}
-
-.has-toolbar #tools {
-  transition: opacity 1s 1s;
-  opacity: 1;
+@media (min-width:768px){
+  ul li{
+    display:none;
+    list-style-type: none;
+  }
+  p{
+    display:block;
+    width:50%;
+  }
 }
