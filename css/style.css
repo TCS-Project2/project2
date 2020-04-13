@@ -68,13 +68,8 @@ li {
 }
 
 @media (max-width: 600px){
-  body {
-    background-color:blue;
-  }
-
   .col {
     width: 100% !important;
-    background-color: aqua;
   }
 
   img {
