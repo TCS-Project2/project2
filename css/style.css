@@ -63,8 +63,28 @@ li {
   }
 /* Container for each section on page */
 .container {
-  margin: 40px;
-  padding: 20px;
+  margin: 2.5em;
+  padding: 1.25em;
+}
+
+@media (max-width: 600px){
+  body {
+    background-color:blue;
+  }
+
+  .col {
+    width: 100% !important;
+    background-color: aqua;
+  }
+
+  img {
+    width: 100% !important;
+  }
+
+  .container {
+    margin: .5em;
+    padding: .25em;
+  }
 }
 
 .textCenter {
@@ -80,7 +100,6 @@ li {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px;
   /* Should be removed. Only for demonstration */
 }
 
