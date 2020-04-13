@@ -3,7 +3,8 @@ body {
 }
 
 h2 {
-  font-size: 1.5em; /* 24 px */
+  font-size: 1.5em;
+  /* 24 px */
   margin: 0.83em 0 0.83em;
 }
 
@@ -31,11 +32,39 @@ ul {
 li {
   display: list-item;
 }
+  nav {
+    font-size: 10px;
+    top: 0;
+    /* Position the navbar at the top of the page */
+    position: relative;
+  }
 
+  nav ul {
+    list-style: none;
+    background: yellow;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top:5px;
+    border-radius: 10px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 5px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px;
+  }
 /* Container for each section on page */
 .container {
- margin: 40px;
- padding: 20px;
+  margin: 40px;
+  padding: 20px;
 }
 
 .textCenter {
@@ -51,7 +80,8 @@ li {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px;
+  /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -64,7 +94,9 @@ li {
 /*********************/
 /*** Slideshow CSS ***/
 /*********************/
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -79,7 +111,8 @@ li {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -101,8 +134,9 @@ li {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -136,8 +170,12 @@ li {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-.active, .dot:hover {
+.col img{
+	width:380px;
+	height: 360px;
+}
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -150,11 +188,134 @@ li {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* Sebastian Augusthy's part */
+#bmargin {
+  margin: 0 10px;
+  overflow-x: hidden;
+}
+
+#sign-up {
+  width: 80%;
+  height: 320px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background: #f5f7fe;
+  padding: 30px;
+  text-align: left;
+  margin-top: 10px;
+  float: left;
+  margin-left: 40px;
+}
+
+#sign-up input[type=submit] {
+  background-color: #387dff;
+}
+
+.size {
+  width: 100%;
+}
+
+input {
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #0047cc;
+  color: yellow;
+}
+
+.resize {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+}
+
+.lsize {
+  width: 90px;
+}
+
+#login input[type=submit] {
+  background-color: #0256f2;
+}
+
+
+@media (min-width:768px) {
+  ul li {
+    list-style-type: none;
+  }
+
+  .psize{
+    display: block;
+    width: 40%;
+    font-size: 16px;
+  }
+
+  #sign-up {
+    width: 55%;
+    float: right;
+    margin-top: -430px;
+  }
+
+  nav {
+    font-size: 20px;
+    top: 0;
+    /* Position the navbar at the top of the page */
+    position: relative;
+  }
+
+  nav ul {
+    list-style: none;
+    background: yellow;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top:5px;
+    border-radius: 10px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px;
+  }
+
+  li a:hover {
+    background-color: black;
+    color: white;
+  }
+}
+@media (min-width:1200px){
+	.psize{
+		width:30%;
+	}
+	#sign-up {
+		margin-top: -370px;
+	}
 }
