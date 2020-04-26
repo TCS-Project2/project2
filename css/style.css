@@ -22,6 +22,10 @@ img {
   width: 570px;
 }
 
+.slideImg {
+  width: 100%;
+}
+
 ul {
   display: block;
   list-style-type: disc;
