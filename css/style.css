@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 h2 {
@@ -15,11 +15,6 @@ h3 {
 
 p {
   margin: 1em 0 1em;
-}
-
-img {
-  border: 1px solid rgb(0, 0, 0);
-  width: 570px;
 }
 
 .slideImg {
@@ -71,14 +66,14 @@ li {
   padding: 1.25em;
 }
 
-@media (max-width: 600px){
+@media (min-width: 800px){
   .col {
-    width: 100% !important;
+    width: 50% !important;
   }
 
-  img {
-    width: 100% !important;
-  }
+ img {
+   width: 100% !important;
+ }
 
   .container {
     margin: .5em;
@@ -97,7 +92,7 @@ li {
 /* Create two equal columns that floats next to each other */
 .col {
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;
   /* Should be removed. Only for demonstration */
 }
@@ -190,7 +185,6 @@ li {
 }
 .col img{
 	width:380px;
-	height: 360px;
 }
 .active,
 .dot:hover {
