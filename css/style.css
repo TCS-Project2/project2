@@ -40,12 +40,13 @@ li {
 
   nav ul {
     list-style: none;
-    background: yellow;
+    background: blue;
     text-align: center;
     padding: 0;
     margin: 0;
     margin-top:5px;
     border-radius: 10px;
+    color:yellow;
   }
 
   nav ul li {
