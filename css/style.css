@@ -258,7 +258,8 @@ footer li {
 }
 
 #sign-up input[type=submit] {
-  background-color: #387dff;
+  background-color: #0256f2;
+  color:#FFF912;
 }
 
 .size {
