@@ -104,6 +104,26 @@ li {
   clear: both;
 }
 
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0;
+  height:40px;
+  width:100%;
+  background: rgb(233, 233, 183);
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+footer li {
+  float: right;
+  margin: 10px;
+}
 /*********************/
 /*** Slideshow CSS ***/
 /*********************/
