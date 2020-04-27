@@ -351,4 +351,19 @@ input {
 	#sign-up {
 		margin-top: -370px;
 	}
+        nav ul {
+               list-style: none;
+               background: blue;
+               text-align: center;
+               padding: 0;
+               margin: 0;
+               margin-top:5px;
+               border-radius: 10px;
+	       color:#FFF923
+        }
+
+        li a:hover {
+             background-color: #FFF923;
+             color: blue;
+        }
 }
