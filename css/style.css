@@ -348,7 +348,7 @@ input {
 }
 @media (min-width:1200px){
 	.psize{
-		width:30%;
+		width:50%;
 	}
 	#sign-up {
 		margin-top: -370px;
